@@ -1,0 +1,48 @@
+
+*,*:before,*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+header h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#main {
+    background: #000;
+    padding: 40px 0;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+}
+#main ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#main ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#main ul li.logo a {
+    padding: 0;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.fixed-nav #main {
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+
+
